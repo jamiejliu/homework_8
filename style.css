@@ -1,0 +1,33 @@
+/*********** IN LINE STYLES ************/
+
+body{
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+    font-size: 1.587vw;
+}
+
+h1{
+    font-size: 4.762vw;
+}
+
+h2{
+    font-size: 3.175vw;
+}
+
+h3{
+    font-size: 1.587vw;
+}
+
+#content{
+    margin-left: 5%;
+}
+
+/*********** NAV BAR ************/
+#logo{
+    font-weight: 600;
+}
+
+#navbar{
+    padding-bottom: 2%;
+}
+
+/*********** HOME PAGE STYLES ************/
