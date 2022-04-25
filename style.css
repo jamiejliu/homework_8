@@ -17,17 +17,169 @@ h3{
     font-size: 1.587vw;
 }
 
-#content{
-    margin-left: 5%;
-}
 
 /*********** NAV BAR ************/
 #logo{
     font-weight: 600;
+    font-size: 1.587vw;
+    float: left;
 }
 
 #navbar{
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    padding-right: 5%;
+    padding-left: 2%;
+    position: sticky;
 }
 
+#collapsibleNavbar{
+    font-weight: 300;
+    font-size: 1.320vw;
+}
+
+#design{
+    padding-right: 10%;
+}
+
+.navbar-nav > li{
+  padding-left:2%;
+  padding-right:2%;
+}
+
+/*********** FOOTER ************/
+#footer{
+    background-color: #E5E5E5;
+    padding: 2%;
+    margin-top: 2%;
+
+}
 /*********** HOME PAGE STYLES ************/
+.contentText{
+    padding-left: 5%;
+}
+
+#landingpage{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#landingpageText{
+    padding-top: 33vh;
+}
+
+
+#downArrow{
+    width: 2%;
+    height: 2%;
+    margin-top: 20vh;
+    margin-left: 45vw;
+    transition-duration: 0.25s;
+}
+
+#downArrow:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*.contentText + h2{
+    color: #F694C1;
+}*/
+
+/*My Design Work*/
+#projectRow{
+    margin: 2% 0 2% 0;
+}
+
+#projects{
+    padding-top: 7%;
+}
+
+.projectImage{
+    width: 29vw;
+    height: auto;
+    transition-duration: 0.25s;
+}
+
+.projectImage: hover{
+  transform: scale(1.25);
+}
+
+.projectLink{
+    color: black;
+    text-decoration: none;
+
+}
+
+.projectLink:hover{
+    color: #F694C1;
+}
+
+.col-sm-4{
+    text-align:  center;
+}
+
+/*My Experience*/
+
+
+/* Timeline Container */
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: #333;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card */
+.title {
+  color: orangered;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
