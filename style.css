@@ -84,13 +84,16 @@ h3{
 }
 
 
-/*.contentText + h2{
-    color: #F694C1;
-}*/
+
 
 /*My Design Work*/
+.pinkHeading{
+    color: #CB63A3;
+}
+
+
 #projectRow{
-    margin: 2% 0 2% 0;
+    margin: 2% 0 5% 0;
 }
 
 #projects{
@@ -100,21 +103,22 @@ h3{
 .projectImage{
     width: 29vw;
     height: auto;
-    transition-duration: 0.25s;
+    transition-duration: 0.5s;
+    margin-bottom: 4%;
 }
 
-.projectImage: hover{
-  transform: scale(1.25);
+.projectImage:hover{
+  transform: scale(1.05);
 }
 
 .projectLink{
-    color: black;
+    color: #555555;
     text-decoration: none;
 
 }
 
 .projectLink:hover{
-    color: #F694C1;
+    color: black;
 }
 
 .col-sm-4{
@@ -123,6 +127,19 @@ h3{
 
 /*My Experience*/
 
+
+
+
+
+.col1{
+    width: 50%;
+    float: left;
+}
+
+.col2{
+    width: 50%;
+    float: right;
+}
 
 /* Timeline Container */
 .timeline {
@@ -133,7 +150,7 @@ h3{
 
 /* Outer Layer with the timeline border */
 .outer {
-  border-left: 2px solid #333;
+  border-left: 2px solid #C4C4C4;
 }
 
 /* Card container */
@@ -141,22 +158,20 @@ h3{
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
-  background: #333;
-  color: gray;
   border-radius: 8px;
-  max-width: 400px;
+  border-color: white;
+/*  max-width: 400px;*/
 }
 
 /* Information about the timeline */
 .info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2%;
 }
 
 /* Title of the card */
 .title {
-  color: orangered;
   position: relative;
 }
 
@@ -164,17 +179,33 @@ h3{
 .title::before {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 1vw;
+  height: 1vw;
   background: white;
   border-radius: 999px;
   left: -39px;
-  border: 3px solid orangered;
+  border: 3px solid black;
 }
 
+#amazon::before {
+    border-color: #FDEC9C;
+    background: #FDEC9C;
+}
 
+#ibm::before {
+    border-color: #FE9880;
+    background: #FE9880;
+}
 
+#coordinator::before {
+    border-color: #F694C1;
+    background: #F694C1;
+}
 
+#ra::before {
+    border-color: #CD78A0;
+    background: #CD78A0;
+}
 
 
 
