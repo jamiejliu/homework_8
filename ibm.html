@@ -8,6 +8,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- social media icons -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <!-- styles -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <!-- fonts -->
@@ -33,7 +35,7 @@
                         <a class="nav-link dropdown-toggle" id="design" href="#" role="button" data-bs-toggle="dropdown">DESIGN</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="ibm.html">IBM Internship</a></li>
-                            <li><a class="dropdown-item" href="#">PROJECT 2</a></li>
+                            <li><a class="dropdown-item" href="wholefoods.html">Whole Foods</a></li>
                             <li><a class="dropdown-item" href="#">PROJECT 3</a></li>
                         </ul>
                 </li>
@@ -44,7 +46,7 @@
 
         <div class="content">
             <div id="ibmHeader">
-                <div class="contentText">
+                <div class="contentText" id="ibmText">
                     <h1> IBM UX Design Internship </h1>
                     <h2> May - August 2021 </h2>
                 </div>
@@ -52,56 +54,67 @@
 
 
           <!-- Content -->
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
-                <h3> Overview </h3>
+          <div class="container" id="bodyText">
+            <div class="row mt-5">
+              <div class="col-sm-3">
+                <h3 class="rightAlign"> Overview </h3>
               </div>
-              <div class="col-sm-8">
+              <div class="col-sm-9">
                 <p> During the summer of 2021, I had the opportunity to be a part of IBM’s Red Hat Marketplace team. Red Hat Marketplace (RHM) is a digital store for cloud software, providing an all-in-one platform for customers to try, buy, and deploy container-based software on any cloud. Because RHM is an enterprise-facing platform, I designed for users like developers, IT leaders, procurement and software asset managers, and software vendors. <br>
 
                 <br> For my internship, I was on the RHM dashboard squad. The RHM dashboard provides customers with spend and usage data for their entire multi and hybrid cloud environment. The dashboard contains features that streamline the process of monitoring licenses, renewals, and usage, helping users reduce costs, track ROI, and better predict future spend. </p>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-sm-4">
-                <h3> Projects </h3>
+            <div class="row mt-5">
+              <div class="col-sm-3">
+                <h3 class="rightAlign"> Projects </h3>
               </div>
-              <div class="col-sm-8">
-                I primarily worked on my intern project, which focused on discovery work for the dashboard squad. Because of NDA restrictions, I am unable to showcase my work on this page.
-                <br> <button> TEXT </button>
-                <br>
-                To maximize my time at IBM, I also worked on a few side projects, including writing documentation for two different parts of the dashboard, creating wireframes for client walkthroughs, and participating in a hackathon.
+              <div class="col-sm-9">
+                I primarily worked on my intern project, which focused on discovery work for the dashboard squad. Because of NDA restrictions, I am unable to showcase my work on this page. <br>
 
-                The IBM Be(e) Innovative Intern Challenge lasted for 3 days, and I worked with a team of 4 other interns to create a solution that encouraged responsible production and green consumption. We used IBM technology to create a platform that connected clothing brands to manufacturers to reduce clothing waste.
+                <div class="text-center">
+                  <br> If you have the password, please use the button below to access my internship project details:
+                  <br> <button id="ibmButton"> View My Internship Project Here </button> <br>
+                </div>
+                <br>To maximize my time at IBM, I also worked on a few side projects, including writing documentation for two different parts of the dashboard, creating wireframes for client walkthroughs, and participating in a hackathon.
 
-                <!-- image -->
+                The IBM Be(e) Innovative Intern Challenge lasted for 3 days, and I worked with a team of 4 other interns to create a solution that encouraged responsible production and green consumption. We used IBM technology to create a platform that connected clothing brands to manufacturers to reduce clothing waste. <br>
+
+                <img src="images/Hackathon.png" id="ibmDashboard" alt="3 dashboard wireframes that I created during the IBM hackathon"> <br>
 
                 As the sole designer on the team, I transformed my team’s brainstorming session into a paper prototype to help everyone conceptualize our idea. After my team agreed on our idea, I created high-fidelity UI wireframes (shown above) that followed IBM’s Carbon Design System. My designs allowed the brand to become a supplier of their unsold clothing, which gave manufacturers the chance to repurpose this fabric that was originally headed to the landfill.
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-sm-4">
-                <h3> Takeaways </h3>
+            <div class="row mt-5">
+              <div class="col-sm-3">
+                <h3 class="rightAlign"> Takeaways </h3>
               </div>
-              <div class="col-sm-8">
+              <div class="col-sm-9">
                 This opportunity provided me with the chance to design in a complex environment, creating solutions that simplify and scale. <br>
 
                 <br> Following IBM’s Enterprise Design Thinking principles, I was able to experience design within a large enterprise environment and learn to communicate cross-functionally between teams to continuously improve my design work. Although I independently designed the wireframes for my intern project, I consistently received feedback on my ideas from other designers, developers, and my product manager. <br>
 
-                <br>This process helped me learn how to balance feedback from different perspectives as well as take advantage of the specific expertise within my team . My internship also helped me improve my growth mindset as I was constantly building my knowledge on cloud computing and RHM’s users while also learning how to design within ambiguity. <br>
+                <br>This process helped me learn how to balance feedback from different perspectives as well as take advantage of the specific expertise within my team. My internship also helped me improve my growth mindset as I was constantly building my knowledge on cloud computing and RHM’s users while also learning how to design within ambiguity. <br>
 
-                <br> Thank you, IBM!
+                <br> <strong> Thank you, IBM! </strong>
                 <br> A huge thank you to the whole RHM design team, especially my mentor, Shelby Aranyi, and my manager, Bethany Doan. I am so grateful to have the support of these talented individuals, and I look forward to applying the skills I learned this summer to my future work.
               </div>
             </div>
           </div>
         </div>
 
-          <!-- FOOTER -->
-
+        <div id="footer">
+            <div class="col1 centerText">
+                <h3> Thanks for visiting my portfolio! </h3>
+            </div>
+            <div class="col2">
+                <p> I'd love to chat more. <br> You can reach me at jamiejliu8@gmail.com </p>
+<!--                 <p> You can also find me on:</p>
+                <a href="www.linkedin.com/in/jamie-liu1" class="fa fa-linkedin"></a> -->
+            </div>
+        </div>
 
 
     </body>
