@@ -247,6 +247,18 @@ h3{
     background: #CD78A0;
 }
 
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 /*********** IBM PROJECT PAGE ************/
 .ibmBold{
@@ -254,11 +266,11 @@ h3{
     color: #001D6C;
 }
 
-.rightAlign{
+/*.rightAlign{
     float: right;
     padding-right: 10%;
     text-align: right;
-}
+}*/
 
 #ibmHeader{
     background-image: url('images/IBM-Background.png');
@@ -315,20 +327,25 @@ h3{
     height: auto;
 }
 
-
 #amazonDetails{
     width: 100%;
     height: auto;
 }
 
+#figmaPrototype {
+    margin-bottom: 1%;
+    margin-left: 40%;
+    padding: 1.5% 5% 1.5% 5%;
+    color: white;
+    background-color: #DC6A00;
+    border-radius: 1vw;
+    border: none;
+}
 
-/*FIGMA*/
-#figma {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+
+#figmaPrototype:hover{
+    text-decoration: underline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*********** ADIDASH PROJECT PAGE ************/
