@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', Helvetica, sans-serif !important;
-    font-size: 1.058vwvw;
+    font-size: 1.058vw;
 }
 
 h1{
@@ -57,27 +57,20 @@ h3{
     width: 100%;
 }
 
-/*Social Media Icons*/
-/*.fa {*/
-/*  padding: 5%;*/
-/*  font-size: 1.587vw;
-  width: 5vw;
-  height: 5vw;
-  text-align: center;
-  text-decoration: none;*/
-/*  margin: 5px 2px;*/
-/*  border-radius: 100%;
-  padding-top
+.centerText{
+    margin-left: 33%;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.footerLink{
+    color: black;
+    text-decoration: underline;
+
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}*/
+.footerLink:hover{
+    color: #CB63A3;
+}
+
 
 /*********** HOME PAGE STYLES ************/
 .content{
@@ -118,14 +111,13 @@ h3{
     width: 2%;
     height: 2%;
     margin-left: 45vw;
-    margin-top: 18vh;
+    margin-top: 15vh;
     transition-duration: 0.25s;
 }
 
 #downArrow:hover {
   transform: scale(1.25);
 }
-
 
 
 /*My Design Work*/
@@ -257,6 +249,11 @@ h3{
 
 
 /*********** IBM PROJECT PAGE ************/
+.ibmBold{
+    font-weight: 600;
+    color: #001D6C;
+}
+
 .rightAlign{
     float: right;
     padding-right: 10%;
@@ -284,10 +281,9 @@ h3{
     margin-top:  1%;
     padding: 1.5% 2.5% 1.5% 2.5%;
     color: white;
-    background-color: #49B6FF;
+    background-color: #001D6C;
     border-radius: 1vw;
     border: none;
-    transition-duration: 0.25s;
 }
 
 #ibmButton:hover{
@@ -296,7 +292,7 @@ h3{
 }
 
 
-/*********** IBM PROJECT PAGE ************/
+/*********** AMAZON PROJECT PAGE ************/
 #amazonHeader{
     background-image: url('images/Amazon-Background.png');
     background-repeat: no-repeat;
@@ -309,22 +305,65 @@ h3{
     padding-top: 30vh;
 }
 
-
-/*********** AMAZON PROJECT PAGE ************/
-#amazonCJM{
-    width: 40vw;
+.amazonBold{
+    font-weight: 600;
+    color: #DC6A00;
 }
+
+#amazonCJM{
+    width: 75%;
+    height: auto;
+}
+
 
 #amazonDetails{
-    width: 50vw;
+    width: 100%;
+    height: auto;
 }
 
 
+/*FIGMA*/
+#figma {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
+/*********** ADIDASH PROJECT PAGE ************/
+#adidasHeader{
+    background-image: url('images/Adidas-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
 
+#adidasText{
+    color: white;
+    padding-top: 30vh;
+}
 
+.adidasBold{
+    font-weight: 600;
+    color: #DC6A00;
+}
 
+#personas{
+    width: 100%;
+    height: auto;
+}
 
+#office{
+    width: 75%;
+    height: auto;
+}
 
+#adidasDetails{
+    width: 100%;
+    height: auto;
+}
 
-
+#adidasVideo{
+    width: 100%;
+    height: auto;
+}
