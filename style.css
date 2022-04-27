@@ -273,7 +273,7 @@ h3{
 }
 
 #ibmDashboard{
-    width: 900px;
+    width: 100%;
     padding-bottom: 5%;
 }
 
@@ -325,6 +325,7 @@ h3{
 /*FIGMA*/
 #figma {
     margin: auto;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -345,7 +346,7 @@ h3{
 
 .adidasBold{
     font-weight: 600;
-    color: #DC6A00;
+    color: #AA6373;
 }
 
 #personas{
