@@ -10,8 +10,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- styles -->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <!-- javascript -->
-        <script src="script.js"> </script>
+        <script src="script.js"></script>
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
@@ -57,56 +59,76 @@
           <div class="container" id="bodyText">
             <div class="row mt-5">
               <div class="col-sm-3">
-                <h3 class="text-sm-end">Overview</h3>
+                <h3 class="text-sm-end fade">Overview</h3>
               </div>
               <div class="col-sm-9">
-                During the summer of 2021, I had the opportunity to be a part of IBM’s Red Hat Marketplace team.
-                <span class="ibmBold">Red Hat Marketplace (RHM) is a digital store for cloud software, providing an all-in-one platform for customers to try, buy, and deploy container-based software on any cloud. </span>
-
-                Because RHM is an enterprise-facing platform, I designed for users like developers, IT leaders, procurement and software asset managers, and software vendors. <br>
-
-                <br> For my internship, I was on the <span class="ibmBold"> RHM dashboard squad</span>.
-                The RHM dashboard provides customers with spend and usage data for their entire multi and hybrid cloud environment. The dashboard contains features that streamline the process of monitoring licenses, renewals, and usage, helping users reduce costs, track ROI, and better predict future spend.
+                <p class="fade">
+                  During the summer of 2021, I had the opportunity to be a part of IBM’s Red Hat Marketplace team.
+                  <span class="ibmBold">Red Hat Marketplace (RHM) is a digital store for cloud software, providing an all-in-one platform for customers to try, buy, and deploy container-based software on any cloud. </span>
+                  Because RHM is an enterprise-facing platform, I designed for users like developers, IT leaders, procurement and software asset managers, and software vendors.
+                </p>
+                <p class="fade">
+                  For my internship, I was on the <span class="ibmBold"> RHM dashboard squad</span>.
+                  The RHM dashboard provides customers with spend and usage data for their entire multi and hybrid cloud environment. The dashboard contains features that streamline the process of monitoring licenses, renewals, and usage, helping users reduce costs, track ROI, and better predict future spend.
+                </p>
               </div>
             </div>
 
             <div class="row mt-5">
               <div class="col-sm-3">
-                <h3 class="text-sm-end">Projects</h3>
+                <h3 class="text-sm-end fade">Projects</h3>
               </div>
               <div class="col-sm-9">
-                I primarily worked on my intern project, which focused on discovery work for the dashboard squad. Because of NDA restrictions, I am unable to showcase my work on this page. <br>
-
-                <div class="text-center">
-                  <br> If you have the password, please use the button below to access my internship project details:
-                  <br> <button id="ibmButton"> View My Internship Project Here </button> <br>
+                <p class="fade">
+                  I primarily worked on my intern project, which focused on discovery work for the dashboard squad. Because of NDA restrictions, I am unable to showcase my work on this page.
+                </p>
+                <div class="text-center fade">
+                  <p>
+                    If you have the password, please use the button below to access my internship project details:
+                    <br> <button class="fade" id="ibmButton"> View My Internship Project Here </button> <br>
+                  </p>
                 </div>
-                <br>To maximize my time at IBM, I also worked on a few side projects, including writing documentation for two different parts of the dashboard, creating wireframes for client walkthroughs, and participating in a hackathon.
+                <p class="fade">
+                  To maximize my time at IBM, I also worked on a few side projects, including writing documentation for two different parts of the dashboard, creating wireframes for client walkthroughs, and participating in a hackathon. The IBM Be(e) Innovative Intern Challenge lasted for 3 days, and I worked with a team of 4 other interns to create a solution that encouraged responsible production and green consumption. We used IBM technology to create a platform that connected clothing brands to manufacturers to reduce clothing waste.
+                </p>
+                <br>
+                <img src="images/Hackathon.png" class="fadeImage" id="ibmDashboard" alt="3 dashboard wireframes that I created during the IBM hackathon"> <br>
 
-                The IBM Be(e) Innovative Intern Challenge lasted for 3 days, and I worked with a team of 4 other interns to create a solution that encouraged responsible production and green consumption. We used IBM technology to create a platform that connected clothing brands to manufacturers to reduce clothing waste. <br>
-
-                <img src="images/Hackathon.png" id="ibmDashboard" alt="3 dashboard wireframes that I created during the IBM hackathon"> <br>
-
-                <span class="ibmBold"> As the sole designer on the team, I transformed my team’s brainstorming session into a paper prototype to help everyone conceptualize our idea.</span>
-                After my team agreed on our idea, I created high-fidelity UI wireframes (shown above) that followed IBM’s Carbon Design System. My designs allowed the brand to become a supplier of their unsold clothing, which gave manufacturers the chance to repurpose this fabric that was originally headed to the landfill.
+                <p class="fade"> <span class="ibmBold">
+                  As the sole designer on the team, I transformed my team’s brainstorming session into a paper prototype to help everyone conceptualize our idea.</span>
+                  After my team agreed on our idea, I created high-fidelity UI wireframes (shown above) that followed IBM’s Carbon Design System. My designs allowed the brand to become a supplier of their unsold clothing, which gave manufacturers the chance to repurpose this fabric that was originally headed to the landfill.
+                </p>
               </div>
             </div>
 
             <div class="row mt-5">
               <div class="col-sm-3">
-                <h3 class="text-sm-end">Takeaways</h3>
+                <h3 class="text-sm-end fade">Takeaways</h3>
               </div>
               <div class="col-sm-9">
-                This opportunity provided me with the chance <span class="ibmBold">to design in a complex environment<, creating solutions that simplify and scale. </span><br>
+                <p class="fade">
+                  This opportunity provided me with the chance <span class="ibmBold">to design in a complex environment<, creating solutions that simplify and scale. </span><br>
+                </p>
 
-                <br> Following IBM’s Enterprise Design Thinking principles, I was able to experience design within a large enterprise environment and learn to communicate cross-functionally between teams to continuously improve my design work. Although I independently designed the wireframes for my intern project, I consistently received feedback on my ideas from other designers, developers, and my product manager. <br>
+                <p class="fade">
+                  Following IBM’s Enterprise Design Thinking principles, I was able to experience design within a large enterprise environment and learn to communicate cross-functionally between teams to continuously improve my design work. Although I independently designed the wireframes for my intern project, I consistently received feedback on my ideas from other designers, developers, and my product manager.
+                </p>
 
-                <br><span class="ibmBold">This process helped me learn how to balance feedback from different perspectives as well as take advantage of the specific expertise within my team.</span>
+                <p class="fade ibmBold">
+                  This process helped me learn how to balance feedback from different perspectives as well as take advantage of the specific expertise within my team.
+                </p>
 
-                My internship also helped me improve my growth mindset as I was constantly building my knowledge on cloud computing and RHM’s users while also learning how to design within ambiguity. <br>
+                <p class="fade">
+                  My internship also helped me improve my growth mindset as I was constantly building my knowledge on cloud computing and RHM’s users while also learning how to design within ambiguity.
+                </p>
 
-                <br> <strong> Thank you, IBM! </strong>
-                <br> A huge thank you to the whole RHM design team, especially my mentor, Shelby Aranyi, and my manager, Bethany Doan. I am so grateful to have the support of these talented individuals, and I look forward to applying the skills I learned this summer to my future work.
+                <p class="fade"> <strong>
+                  Thank you, IBM!
+                </strong></p>
+
+                <p class="fade">
+                  A huge thank you to the whole RHM design team, especially my mentor, Shelby Aranyi, and my manager, Bethany Doan. I am so grateful to have the support of these talented individuals, and I look forward to applying the skills I learned this summer to my future work.
+                </p>
               </div>
             </div>
           </div>

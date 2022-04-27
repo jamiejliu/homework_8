@@ -72,6 +72,15 @@ h3{
 }
 
 
+/*********** FADE ANIMATION ************/
+.fade {
+  opacity: 1;
+}
+
+.fadeImage {
+  opacity: 1;
+}
+
 /*********** HOME PAGE STYLES ************/
 .content{
     position: relative;
