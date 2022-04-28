@@ -1,3 +1,4 @@
+//fade in text
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
@@ -12,10 +13,11 @@ $(window).on("load",function() {
         if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
       }
     });
-  }).scroll(); //invoke scroll-handler on page-load
+  }).scroll();
 });
 
 
+//fade in images
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
@@ -30,5 +32,5 @@ $(window).on("load",function() {
         if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
       }
     });
-  }).scroll(); //invoke scroll-handler on page-load
+  }).scroll();
 });
