@@ -28,7 +28,7 @@ Land on home page :: use the navigation bar
 * Click on “Resume” to view my resume
 * Hover on “Design” to view a dropdown menu of the 3 projects on the portfolio page
 * Click on the project to view more details about it
-* Please note that I have not yet built out the “About” page in the navigation/
+* Please note that I have not yet built out the “About” page in the navigation <br>
 
 
 Land on home page :: click on the arrow or scroll down
