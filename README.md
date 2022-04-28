@@ -1,7 +1,8 @@
-## a. Video link: https://drive.google.com/file/d/1Pb23CKTIHgLtTQfh6hefaw3isvMp3MzO/view?usp=sharing
+## a. Video:
+Link: https://drive.google.com/file/d/1Pb23CKTIHgLtTQfh6hefaw3isvMp3MzO/view?usp=sharing
 
 
-## b. Figma and Hosting links:
+## b. Figma and Hosting:
 Figma: https://www.figma.com/file/8rC0Y5sIt9hzuMdPJXfK8S/PUI-Final-Project?node-id=2%3A2
 Website Hosting: https://homework-8-aabae.web.app/
 
