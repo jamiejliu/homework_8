@@ -4,6 +4,7 @@ Link: https://drive.google.com/file/d/1Pb23CKTIHgLtTQfh6hefaw3isvMp3MzO/view?usp
 
 ## b. Figma and Hosting:
 Figma: https://www.figma.com/file/8rC0Y5sIt9hzuMdPJXfK8S/PUI-Final-Project?node-id=2%3A2
+
 Website Hosting: https://homework-8-aabae.web.app/
 
 
@@ -29,16 +30,20 @@ Land on home page :: use the navigation bar
 * Click on the project to view more details about it
 * Please note that I have not yet built out the “About” page in the navigation
 
+
 Land on home page :: click on the arrow or scroll down
 * Scroll down to view an overview of my projects and an overview of my past experiences
 
+
 On the home page :: click on a project
 * Click on a project that interests you to read more about it
+
 
 On each content page :: explore the content
 * Scroll down to read more about each project
 * Some pages have buttons that link to external content or password-protected pages to comply with NDAs
 * Use the navigation bar to return to the home page
+
 
 In the footer :: send me an email
 * Click on the email address in the footer to send me an email to connect!
