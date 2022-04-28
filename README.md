@@ -9,18 +9,13 @@ Website Hosting: https://homework-8-aabae.web.app/
 
 
 ## c. Description:
-i. What is the purpose of your website?
-ii. What information do you convey with your website?
-iii. How is it interesting and engaging?
-iv. Who is the target audience?
+For my final project, I coded a portfolio for myself. This portfolio displays a selection of projects and past work that showcase my skills. I currently have a portfolio that I built using a template, and I used this assignment as an opportunity to redesign my website, with more flexibility to make it more unique.
 
-i. For my final project, I coded a portfolio for myself. This portfolio displays a selection of projects and past work that showcase my skills. I currently have a portfolio that I built using a template, and I used this assignment as an opportunity to redesign my website, with more flexibility to make it more unique.
+With my website, I want to convey my skill set and experience, mainly using past experiences, but also through the design itself. On the home page of my website, I included the most important information about myself: my name, university, and a summary of my past work and past experiences. Each of the 3 past work previews displayed on the home page leads to an individual page with more details about the project.
 
-ii. With my website, I want to convey my skill set and experience, mainly using past experiences, but also through the design itself. On the home page of my website, I included the most important information about myself: my name, university, and a summary of my past work and past experiences. Each of the 3 past work previews displayed on the home page leads to an individual page with more details about the project.
+I have made my website interesting and engaging using visual design. I have a clean, modern style with different gradients and pops of color to make the portfolio more lively. In addition, I have implemented hover states to make it clear which parts of the page can be clicked on. Finally, I added animation so that the content fades in as users scroll, breaking down the information so it is not overwhelming.
 
-iii. I have made my website interesting and engaging using visual design. I have a clean, modern style with different gradients and pops of color to make the portfolio more lively. In addition, I have implemented hover states to make it clear which parts of the page can be clicked on. Finally, I added animation so that the content fades in as users scroll, breaking down the information so it is not overwhelming.
-
-iv. My target audience is recruiters. As a rising senior, I will be using my portfolio to recruit for full-time positions for UX Design after graduation.
+My target audience is recruiters. As a rising senior, I will be using my portfolio to recruit for full-time positions for UX Design after graduation.
 
 
 ## d. Using the website:
